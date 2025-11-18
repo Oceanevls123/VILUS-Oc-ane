@@ -13,6 +13,7 @@ let pinceauRotatif = 0;
 let reset = 0;
 
 function preload() {
+   text('Pour commencer appuyer sur "r"', 150, 150)
   for (let i = 1; i < 16; i++) {
     imgMasque[i - 1] = loadImage('images/brushes/masque (' + i + ').png');
   }
