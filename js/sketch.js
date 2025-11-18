@@ -22,7 +22,7 @@ function preload() {
 }
 
 function setup() {
-  console 
+ 
   background(255);
   rectMode(CENTER);
   imageMode(CENTER);
