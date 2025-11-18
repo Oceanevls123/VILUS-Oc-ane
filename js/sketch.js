@@ -14,7 +14,7 @@ let reset = 0;
 
 function preload() {
   for (let i = 1; i < 16; i++) {
-    imgMasque[i - 1] = loadImage('images/masque/masque (' + i + ').png');
+    imgMasque[i - 1] = loadImage('images/brushes/masque (' + i + ').png');
   }
   for (let i = 1; i < 6; i++) {
     imgDessin[i - 1] = loadImage('images/brushes/brush (' + i + ').png');
