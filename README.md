@@ -1,2 +1,2 @@
-# VILUS-Oc-ane
+# VILUS-Oceane
 Rendu code pinceaux génératifs 
