@@ -13,9 +13,8 @@ let pinceauRotatif = 0;
 let reset = 0;
 
 function preload() {
-
   for (let i = 1; i < 16; i++) {
-    imgMasque[i - 1] = loadImage('images/brushes/masque (' + i + ').png');
+    imgMasque[i - 1] = loadImage('images/masque/masque (' + i + ').png');
   }
   for (let i = 1; i < 6; i++) {
     imgDessin[i - 1] = loadImage('images/brushes/brush (' + i + ').png');
@@ -23,14 +22,18 @@ function preload() {
 }
 
 function setup() {
-console.log('Pour commencer : appuyer sur la touche "r"');
+  console 
   background(255);
   rectMode(CENTER);
   imageMode(CENTER);
   angleMode(DEGREES);
   createCanvas(windowWidth, windowHeight);
   frameRate(67);
-
+  textSize(50);
+  
+  textAlign(windowHeight, windowWidth);
+ text('Pour commencer appuyer sur "r"', 150, 150)
+ 
   // redimensionner les images
   for (let i = 0; i < imgMasque.length; i++) {
     imgMasque[i].resize(0, height/2);
@@ -64,10 +67,11 @@ newFeuille.imageMode(CENTER)
 }
 
 function draw() {
+  
   // Animation légère de fond avec les brushs
   let x1 = noise(2300 + frameCount * 0.234) * width;
   let y1 = noise(2 + frameCount * 0.134) * height;
-  tint(40, 105, 191, 23);
+  tint(40, 105, 191, 45);
   image(imgDessin[1], x1, y1, 0, 70);
 
   let x2 = noise(2977 + frameCount * 0.02) * width;
