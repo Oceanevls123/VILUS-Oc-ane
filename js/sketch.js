@@ -29,10 +29,8 @@ function setup() {
   angleMode(DEGREES);
   createCanvas(windowWidth, windowHeight);
   frameRate(67);
-  textSize(50);
-  
-  textAlign(windowHeight, windowWidth);
- text('Pour commencer appuyer sur "r"', 150, 150)
+
+
  
   // redimensionner les images
   for (let i = 0; i < imgMasque.length; i++) {
