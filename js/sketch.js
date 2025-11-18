@@ -29,7 +29,7 @@ function setup() {
   angleMode(DEGREES);
   createCanvas(windowWidth, windowHeight);
   frameRate(67);
-  textSize(50);
+
   
 
   // redimensionner les images
