@@ -17,7 +17,7 @@ function preload() {
     imgMasque[i - 1] = loadImage('images/masque/masque (' + i + ').png');
   }
   for (let i = 1; i < 6; i++) {
-    imgDessin[i - 1] = loadImage('images/brushes/brush (' + i + ').png');
+    imgDessin[i - 1] = loadImage('images/masque/brush (' + i + ').png');
   }
 }
 
