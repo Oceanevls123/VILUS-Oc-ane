@@ -22,6 +22,7 @@ function preload() {
 }
 
 function setup() {
+console.log('Pour commencer : appuyer sur la touche "r"');
   background(255);
   rectMode(CENTER);
   imageMode(CENTER);
